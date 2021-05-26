@@ -1,0 +1,68 @@
+body,
+button,
+input,
+print1,
+print2{
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+    text-align: center;
+}
+
+p,
+button{
+	margin-bottom: .75em;
+}
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+
+.masthead {
+    padding: 1em 2em;
+    background-color: #0D1B2E;
+    color: white;
+    font-size: 16px;
+}
+   
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 6px;
+    border-color: white;
+
+}
+.btn:hover {
+    color: whitesmoke;
+    background-color: #0D1B2E;
+}
+.container {
+  width: 25rem;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background: white;
+  padding: 20px 20px 40px 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #0b3b2e;
+  font-size: 17px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #8f8c8c;
+}
+
+
+/*--------------------------------------------------------------
+Responsive styles for container on different screen sizes
+--------------------------------------------------------------*/
+@media (max-width: 1000px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+ }
+}
